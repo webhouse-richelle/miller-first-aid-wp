@@ -1,0 +1,26 @@
+## Amplify SSR: expose selected console env vars to Next.js runtime via .env.production.
+## Ref: https://docs.aws.amazon.com/amplify/latest/userguide/ssr-environment-variables.html
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install -g pnpm
+        - pnpm install --frozen-lockfile
+    build:
+      commands:
+        - env | grep -e ^RESEND_API_KEY= >> .env.production || true
+        - env | grep -e ^RESEND_FROM_EMAIL= >> .env.production || true
+        - env | grep -e ^ENQUIRY_TO_EMAIL= >> .env.production || true
+        - pnpm run build
+        # Keep artifact size small for Amplify deploy limits.
+        - rm -rf .next/dev .next/cache 2>/dev/null || true
+        - find .next -type f -name "*.map" -delete
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - node_modules/**/*
+      - .next/cache/**/*

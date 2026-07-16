@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "elementor-mcp": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["c:/Users/riche/Downloads/miller-first-aid/miller-first-aid-website-main/emcp-proxy.mjs"],
+      "env": {
+        "WP_URL": "https://syn01ce.syd7.hostyourservices.net/~millerfi/",
+        "WP_USERNAME": "admin_wagpsxys",
+        "WP_APP_PASSWORD": "Xees 4SZp EoJJ pdOr ty6c RFds",
+        "MCP_PROTOCOL_VERSION": "2024-11-05",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      }
+    }
+  }
+}

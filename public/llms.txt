@@ -1,0 +1,29 @@
+# Miller First Aid
+
+> Miller First Aid delivers nationally recognised on site first aid and CPR training across Sydney and NSW, led by Specialist Paramedics. Training is issued on behalf of Allens Training Pty Ltd (RTO 90909).
+
+## Contact
+
+- [Website](https://www.millerfirstaid.com.au/)
+- [Contact / Enquiries](https://www.millerfirstaid.com.au/contact)
+- Phone: 1300 807 669
+- Email: info@millerfirstaid.com.au
+
+## Main pages
+
+- [Home](https://www.millerfirstaid.com.au/): On site first aid training overview
+- [About](https://www.millerfirstaid.com.au/about): Paramedic-led training and company background
+- [Courses](https://www.millerfirstaid.com.au/courses): Accredited CPR, first aid, education and care, advanced first aid, asthma and anaphylaxis, and school programs
+- [Industries](https://www.millerfirstaid.com.au/industries): Training by sector (schools, childcare, healthcare, construction, and more)
+- [Blog](https://www.millerfirstaid.com.au/blog): First aid and compliance articles
+- [Free resources (PDFs)](https://www.millerfirstaid.com.au/resources): Downloadable guides
+- [Privacy policy](https://www.millerfirstaid.com.au/privacy-policy)
+
+## Discovery
+
+- [Sitemap](https://www.millerfirstaid.com.au/sitemap.xml)
+- [Robots](https://www.millerfirstaid.com.au/robots.txt)
+
+## Accreditation
+
+All accredited training and assessment is delivered on behalf of Allens Training Pty Ltd RTO 90909. Statements of Attainment are nationally recognised under the Australian Qualifications Framework.
